@@ -1,7 +1,8 @@
 const url=new URL(location.href);
 const movieId=url.searchParams.get("id");
 const movieTitle=url.searchParams.get("title");
-const APILINK ="https://review-backend.kottanauday.repl.co/api/v1/reviews/";
+const APILINK =
+  "https://d0872953-2d68-4f60-8e2e-cfc59828a897-00-2z7ktxg98eziu.pike.replit.dev/api/v1/reviews/";
 
 
 const main = document.getElementById("section");
